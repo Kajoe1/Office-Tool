@@ -463,7 +463,7 @@
 
     <!-- Info Message -->
     <sys:String x:Key="InfoPermission">Office Tool Plus wordt uitgevoerd met normale rechten, sommige functies zijn niet beschikbaar.</sys:String>
-    <sys:String x:Key="InfoRestart">You need to restart application to take effect.</sys:String>
+    <sys:String x:Key="InfoRestart">U moet de toepassing opnieuw starten om effectief te worden.</sys:String>
     <sys:String x:Key="InfoUpdate">U gebruikt de nieuwste versie van Office Tool Plus.</sys:String>
     <sys:String x:Key="InfoNoConfigured">Er zijn geen wijzigingen gedetecteerd.</sys:String>
     <sys:String x:Key="InfoAllExist">Downloaden is niet nodig, alle bestanden bestaan.</sys:String>
