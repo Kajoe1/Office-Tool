@@ -1,4 +1,4 @@
-V8.2.6.3
+V8.2.6.4
 
 `Alsjeblieft` [download Office Tool Plus opnieuw](http://otp.landian.vip/) `voor betere ervaringen als je versie 8.0 of 8.1 gebruikt.`
 
