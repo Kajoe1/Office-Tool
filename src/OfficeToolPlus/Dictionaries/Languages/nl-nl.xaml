@@ -13,20 +13,20 @@
     <sys:String x:Key="Eula.Content">Als u deze software wilt gebruiken, moet u akkoord gaan met de [Software Licentievoorwaarden]({0}) en [Microsoft Services Overeenkomst]({1}).</sys:String>
 
     <!-- Custom control -->
-    <sys:String x:Key="Yerong_String_ToggleButton.Unset">Unset</sys:String>
+    <sys:String x:Key="Yerong_String_ToggleButton.Unset">Uitgeschakeld</sys:String>
     <sys:String x:Key="Yerong_String_ToggleButton.Off">Uit</sys:String>
     <sys:String x:Key="Yerong_String_ToggleButton.On">On</sys:String>
     <sys:String x:Key="Yerong_String_MicaMenu.Name">Menu</sys:String>
-    <sys:String x:Key="Yerong_String_MicaMenu.HelpText">Click to open context menu.</sys:String>
+    <sys:String x:Key="Yerong_String_MicaMenu.HelpText">Klik om het contextmenu te openen.</sys:String>
     
     <!-- Title bar -->
     <sys:String x:Key="Title_Bar_Command_Box">Opdracht</sys:String>
 
     <!-- Navigation bar -->
-    <sys:String x:Key="Navigation_Menu.Name">Navigation menu</sys:String>
-    <sys:String x:Key="Navigation_Menu.ToolTip">Click to expand or collapse navigation bar.</sys:String>
-    <sys:String x:Key="Navigation_Bar.Name">Navigation bar</sys:String>
-    <sys:String x:Key="Navigation_Bar_Bottom.Name">Bottom navigation bar</sys:String>
+    <sys:String x:Key="Navigation_Menu.Name">Navigatie menu</sys:String>
+    <sys:String x:Key="Navigation_Menu.ToolTip">Klik om de navigatiebalk uit te vouwen of samen te vouwen.</sys:String>
+    <sys:String x:Key="Navigation_Bar.Name">Navigatie balk</sys:String>
+    <sys:String x:Key="Navigation_Bar_Bottom.Name">Onderste navigatiebalk</sys:String>
 
     <sys:String x:Key="Navigate_Page.Home">Home</sys:String>
     <sys:String x:Key="Navigate_Page.Deploy">Implementeer</sys:String>
@@ -39,19 +39,19 @@
     <sys:String x:Key="Navigate_Page.About">Over</sys:String>
     
     <!-- Notification list -->
-    <sys:String x:Key="Notification_Close_Message.Name">Close message</sys:String>
-    <sys:String x:Key="Notification_Message_Content">Message content: {0}, {1}</sys:String>
-    <sys:String x:Key="Notification_Message_Button_List">Message buttons</sys:String>
-    <sys:String x:Key="Notification_Cancel_Task.Name">Cancel task</sys:String>
+    <sys:String x:Key="Notification_Close_Message.Name">Bericht sluiten</sys:String>
+    <sys:String x:Key="Notification_Message_Content">Berichtinhoud: {0}, {1}</sys:String>
+    <sys:String x:Key="Notification_Message_Button_List">Bericht knoppen</sys:String>
+    <sys:String x:Key="Notification_Cancel_Task.Name">Taak annuleren</sys:String>
 
     <!-- Home page -->
-    <sys:String x:Key="Home_Messages_Center.Name">Messages center</sys:String>
+    <sys:String x:Key="Home_Messages_Center.Name">Berichtencentrum</sys:String>
     <!-- Greetings, customize it according to your country and habits. -->
     <sys:String x:Key="Home_Greeting_Hello">Hallo</sys:String>
     <!-- 00:00 -> 05:00 -->
     <sys:String x:Key="Home_Greeting_Hour.0">Het is laat, slaap lekker!</sys:String>
     <!-- 05:00 -> 06:00 -->
-    <sys:String x:Key="Home_Greeting_Hour.5">It's almost dawn, ready to get up?</sys:String>
+    <sys:String x:Key="Home_Greeting_Hour.5">Het is bijna ochtend, klaar om op te staan?</sys:String>
     <!-- 06:00 -> 10:00 -->
     <sys:String x:Key="Home_Greeting_Hour.6">Goedemorgen</sys:String>
     <!-- 10:00 -> 11:00 -->
@@ -69,7 +69,7 @@
     <!-- 18:00 -> 21:00 -->
     <sys:String x:Key="Home_Greeting_Hour.18">Goedenavond</sys:String>
     <!-- 21:00 -> 22:00 -->
-    <sys:String x:Key="Home_Greeting_Hour.21">Time to sleep, have a nice dream!</sys:String>
+    <sys:String x:Key="Home_Greeting_Hour.21">Tijd om te slapen, droom lekker!</sys:String>
     <!-- 22:00 -> 00:00 (+1) -->
     <sys:String x:Key="Home_Greeting_Hour.22">Het is laat, slaap lekker!</sys:String>
     <!-- Greetings end -->
@@ -78,14 +78,14 @@
     <sys:String x:Key="Home_Install_Office.O365HPRDescription">Inclusief Outlook, Word, Excel, PowerPoint, en meer.</sys:String>
     <sys:String x:Key="Home_Install_Office.PP2019RDescription">Inclusief Outlook, Word, Excel, PowerPoint, en meer.</sys:String>
     <sys:String x:Key="Home_Install_Office.HS2019Description">Inclusief Word, Excel, PowerPoint.</sys:String>
-    <sys:String x:Key="Home_Getting_Content">Getting content, please wait...</sys:String>
-    <sys:String x:Key="Home_Error_While_Getting_Content">Unable to get content, please check your Internet connection and try again.</sys:String>
+    <sys:String x:Key="Home_Getting_Content">Inhoud ophalen, even geduld...</sys:String>
+    <sys:String x:Key="Home_Error_While_Getting_Content">Kan geen inhoud ophalen, controleer uw internetverbinding en probeer het opnieuw.</sys:String>
     <sys:String x:Key="Home_Retry">Opnieuw proberen</sys:String>
-    <sys:String x:Key="Home_Launcher.Name">Application list</sys:String>
+    <sys:String x:Key="Home_Launcher.Name">Applicatie lijst</sys:String>
     <sys:String x:Key="Home_Launcher_CreateShortcut">Maak een snelkoppeling op het bureaublad</sys:String>
 
     <!-- Deploy page -->
-    <sys:String x:Key="Deploy_Learn_More">Learn more</sys:String>
+    <sys:String x:Key="Deploy_Learn_More">Kom meer te weten</sys:String>
     <!-- Channels Name, if you do not want to translate them, please keep in English. -->
     <sys:String x:Key="PerpetualVL2019">Office 2019 Enterprise (onbeperkt)</sys:String>
     <sys:String x:Key="PerpetualVL2021">Office 2021 Enterprise (onbeperkt)</sys:String>
@@ -98,79 +98,79 @@
 
     <!-- Error messages -->
     <!-- {0} means product name. -->
-    <sys:String x:Key="Deploy_Error_Coexist">{0} can not coexist with existing products.</sys:String>
+    <sys:String x:Key="Deploy_Error_Coexist">{0} kan niet samengaan met bestaande producten.</sys:String>
     <!-- {0} means product name. -->
-    <sys:String x:Key="Deploy_Error_ODT_Not_Supported">If you want to install {0}, change the installation module to Office Tool Plus.</sys:String>
+    <sys:String x:Key="Deploy_Error_ODT_Not_Supported">Als u {0} wilt installeren, wijzigt u de installatiemodule in Office Tool Plus.</sys:String>
     <!-- {0} means product name, {1} means channel name. -->
-    <sys:String x:Key="Deploy_Error_Channel">{0} can not be installed on the selected channel: {1}.</sys:String>
+    <sys:String x:Key="Deploy_Error_Channel">{0} kan niet worden geïnstalleerd op het geselecteerde kanaal: {1}.</sys:String>
     <!-- {0} means channel name, such as Current Channel. -->
-    <sys:String x:Key="Deploy_Error_Unsupported_Channel">If you want to use {0}, change the installation module to Office Tool Plus.</sys:String>
-    <sys:String x:Key="Deploy_Error_System_Architecture">You can not install 64-bit of Office on a non-64-bit system.</sys:String>
+    <sys:String x:Key="Deploy_Error_Unsupported_Channel">Als u {0} wilt gebruiken, wijzigt u de installatiemodule in Office Tool Plus.</sys:String>
+    <sys:String x:Key="Deploy_Error_System_Architecture">U kunt geen 64-bits versie van Office installeren op een niet-64-bits systeem.</sys:String>
     <!-- Example: You can not install 32 bit of Office, because you have the 64 bit of Office installed on your computer. -->
-    <sys:String x:Key="Deploy_Error_Office_Architecture">You can not install {0} of Office, because you have the {1} of Office installed on your computer.</sys:String>
-    <sys:String x:Key="Deploy_Error_Installation_Arch">The architecture you have selected does not match the architecture of the local installation files, please reselect architecture or do not use the local installation files for deployment.</sys:String>
-    <sys:String x:Key="Deploy_Error_Installation_Channel">The update channel you have selected does not match the update channel of the local installation files, please reselect update channel or do not use the local installation files for deployment.</sys:String>
+    <sys:String x:Key="Deploy_Error_Office_Architecture">U kunt {0} van Office niet installeren, omdat u {1} van Office op uw computer hebt geïnstalleerd.</sys:String>
+    <sys:String x:Key="Deploy_Error_Installation_Arch">De door u geselecteerde architectuur komt niet overeen met de architectuur van de lokale installatiebestanden. Selecteer de architectuur opnieuw of gebruik de lokale installatiebestanden niet voor implementatie.</sys:String>
+    <sys:String x:Key="Deploy_Error_Installation_Channel">Het door u geselecteerde updatekanaal komt niet overeen met het updatekanaal van de lokale installatiebestanden. Selecteer het updatekanaal opnieuw of gebruik de lokale installatiebestanden niet voor implementatie.</sys:String>
 
-    <sys:String x:Key="Deploy_Deployment">Deploy Office</sys:String>
-    <sys:String x:Key="Deploy_Deployment.Description">Before deploying Office, make sure that deployment mode is set correctly and the product and language are configured.</sys:String>
+    <sys:String x:Key="Deploy_Deployment">Office implementeren</sys:String>
+    <sys:String x:Key="Deploy_Deployment.Description">Voordat u Office implementeert, moet u ervoor zorgen dat de implementatiemodus correct is ingesteld en dat het product en de taal zijn geconfigureerd.</sys:String>
     <sys:String x:Key="Deploy_Start_Deploy">Start _Implementeren</sys:String>
-    <sys:String x:Key="Deploy_Reset">_Reset all settings</sys:String>
+    <sys:String x:Key="Deploy_Reset">_Reset alle instellingen</sys:String>
     <sys:String x:Key="Deploy_View_Code">_Bekijk XML code</sys:String>
-    <sys:String x:Key="Deploy_Apply_Preferences">_Apply preferences for Office applications</sys:String>
-    <sys:String x:Key="Deploy_Export_Config">_Export configuration</sys:String>
-    <sys:String x:Key="Deploy_Import_Config">_Import configuration</sys:String>
-    <sys:String x:Key="Deploy_Import_Config_Web">Import configuration from _Web</sys:String>
-    <sys:String x:Key="Deploy_Mode">Deployment mode</sys:String>
+    <sys:String x:Key="Deploy_Apply_Preferences">_Pas voorkeuren toe voor Office toepassingen</sys:String>
+    <sys:String x:Key="Deploy_Export_Config">_Configuratie exporteren</sys:String>
+    <sys:String x:Key="Deploy_Import_Config">_Configuratie importeren</sys:String>
+    <sys:String x:Key="Deploy_Import_Config_Web">Configuratie importeren uit _Web</sys:String>
+    <sys:String x:Key="Deploy_Mode">Implementatiemodus</sys:String>
     <sys:String x:Key="Deploy_Mode.Edit">Bewerk alleen config</sys:String>
     <sys:String x:Key="Deploy_Mode.Download">Alleen downloaden</sys:String>
     <sys:String x:Key="Deploy_Mode.Install">Installeer</sys:String>
     <sys:String x:Key="Deploy_Mode.Create_ISO">Maak een ISO bestand</sys:String>
-    <sys:String x:Key="Deploy_Architecture">Architecture</sys:String>
+    <sys:String x:Key="Deploy_Architecture">Architectuur</sys:String>
     <sys:String x:Key="Deploy_Architecture.x86">32-bit</sys:String>
     <sys:String x:Key="Deploy_Architecture.x64">64-bit</sys:String>
     <sys:String x:Key="Deploy_Architecture.ARM">32-bit (ARM compatible)</sys:String>
     <sys:String x:Key="Deploy_Architecture.ARM64">64-bit (ARM64 compatible)</sys:String>
-    <sys:String x:Key="Deploy_Channel">Update channel</sys:String>
-    <sys:String x:Key="Deploy_Module">Installation module</sys:String>
+    <sys:String x:Key="Deploy_Channel">Update Kanaal</sys:String>
+    <sys:String x:Key="Deploy_Module">Installatie module</sys:String>
     <sys:String x:Key="Deploy_Module.ODT">Office Deployment Tool</sys:String>
     <sys:String x:Key="Deploy_Module.OTP">Office Tool Plus</sys:String>
-    <sys:String x:Key="Deploy_Download_First">Download first, then deploy</sys:String>
-    <sys:String x:Key="Deploy_Download_First.Description">The installation files will be saved in the program directory or the directory specified by source path.</sys:String>
-    <sys:String x:Key="Deploy_Create_Shortcut">Create desktop shortcuts</sys:String>
-    <sys:String x:Key="Deploy_Create_Shortcut.Description">Create desktop shortcuts to Office applications after Office installation.</sys:String>
+    <sys:String x:Key="Deploy_Download_First">Eerst downloaden en dan implementeren</sys:String>
+    <sys:String x:Key="Deploy_Download_First.Description">De installatiebestanden worden opgeslagen in de programmamap of de map die is opgegeven door het bronpad.</sys:String>
+    <sys:String x:Key="Deploy_Create_Shortcut">Snelkoppelingen op het bureaublad maken</sys:String>
+    <sys:String x:Key="Deploy_Create_Shortcut.Description">Maak snelkoppelingen op het bureaublad naar Office toepassingen na Office installatie.</sys:String>
     <!-- Do not edit it or translate it. iSlide only provided in mainland China. -->
-    <sys:String x:Key="Deploy_iSlide">PlaceHolder</sys:String>
-    <sys:String x:Key="Deploy_iSlide.Description">PlaceHolder</sys:String>
-    <sys:String x:Key="Deploy_iSlide_Install">PlaceHolder</sys:String>
-    <sys:String x:Key="Deploy_iSlide_Install.Name">PlaceHolder</sys:String>
+    <sys:String x:Key="Deploy_iSlide">Plaatshouder</sys:String>
+    <sys:String x:Key="Deploy_iSlide.Description">Plaatshouder</sys:String>
+    <sys:String x:Key="Deploy_iSlide_Install">Plaatshouder</sys:String>
+    <sys:String x:Key="Deploy_iSlide_Install.Name">Plaatshouder</sys:String>
 
     <sys:String x:Key="Deploy_Product">Producten</sys:String>
-    <sys:String x:Key="Deploy_Product.Description">{0} installed product(s), {1} ready to deploy and {2} ready to uninstall.</sys:String>
-    <sys:String x:Key="Deploy_Product_Button">Add _products</sys:String>
-    <sys:String x:Key="Deploy_Product_Nothing_Here">There's nothing here.</sys:String>
-    <sys:String x:Key="Deploy_Product_Installed">Installed product(s)</sys:String>
-    <sys:String x:Key="Deploy_Product_To_Be_Deployed">To be deployed</sys:String>
-    <sys:String x:Key="Deploy_Product_To_Be_Uninstalled">To be uninstalled</sys:String>
-    <sys:String x:Key="Deploy_Uninstall_Product">Uninstall</sys:String>
-    <sys:String x:Key="Deploy_Cancel_Uninstall_Product">Cancel uninstall</sys:String>
-    <sys:String x:Key="Deploy_Cancel_Deploy_Product">Cancel deployment</sys:String>
+    <sys:String x:Key="Deploy_Product.Description">{0} geïnstalleerd product(en), {1} klaar om te implementeren en {2} klaar om te verwijderen.</sys:String>
+    <sys:String x:Key="Deploy_Product_Button">Voeg _producten toe</sys:String>
+    <sys:String x:Key="Deploy_Product_Nothing_Here">Er is hier niets.</sys:String>
+    <sys:String x:Key="Deploy_Product_Installed">Geïnstalleerde product(en)</sys:String>
+    <sys:String x:Key="Deploy_Product_To_Be_Deployed">Te implementeren</sys:String>
+    <sys:String x:Key="Deploy_Product_To_Be_Uninstalled">Te verwijderen</sys:String>
+    <sys:String x:Key="Deploy_Uninstall_Product">Verwijderen</sys:String>
+    <sys:String x:Key="Deploy_Cancel_Uninstall_Product">Verwijderen annuleren</sys:String>
+    <sys:String x:Key="Deploy_Cancel_Deploy_Product">Annuleer de implementatie</sys:String>
     <sys:String x:Key="Deploy_Applications">Applicaties</sys:String>
     <sys:String x:Key="Deploy_Language">Talen</sys:String>
-    <sys:String x:Key="Deploy_Language.Description">{0} installed langauge(s), {1} ready to deploy and {2} ready to uninstall.</sys:String>
-    <sys:String x:Key="Deploy_Language_Button">Add _languages</sys:String>
-    <sys:String x:Key="Deploy_Language_Nothing_Here">There's nothing here.</sys:String>
-    <sys:String x:Key="Deploy_Language_Installed">Installed language(s)</sys:String>
-    <sys:String x:Key="Deploy_Language_To_Be_Deployed">To be deployed</sys:String>
-    <sys:String x:Key="Deploy_Language_To_Be_Uninstalled">To be uninstalled</sys:String>
-    <sys:String x:Key="Deploy_Uninstall_Language">Uninstall</sys:String>
-    <sys:String x:Key="Deploy_Cancel_Uninstall_Language">Cancel uninstall</sys:String>
-    <sys:String x:Key="Deploy_Cancel_Deploy_Language">Cancel deployment</sys:String>
+    <sys:String x:Key="Deploy_Language.Description">{0} geïnstalleerde taal(talen), {1} klaar om te implementeren en {2} klaar om te verwijderen.</sys:String>
+    <sys:String x:Key="Deploy_Language_Button">Voeg _talen toe</sys:String>
+    <sys:String x:Key="Deploy_Language_Nothing_Here">Er is hier niets.</sys:String>
+    <sys:String x:Key="Deploy_Language_Installed">Geïnstalleerde taal/talen</sys:String>
+    <sys:String x:Key="Deploy_Language_To_Be_Deployed">Te implementeren</sys:String>
+    <sys:String x:Key="Deploy_Language_To_Be_Uninstalled">Te verwijderen</sys:String>
+    <sys:String x:Key="Deploy_Uninstall_Language">Verwijderen</sys:String>
+    <sys:String x:Key="Deploy_Cancel_Uninstall_Language">Verwijderen annuleren</sys:String>
+    <sys:String x:Key="Deploy_Cancel_Deploy_Language">Annuleer de implementatie</sys:String>
     
-    <sys:String x:Key="Deploy_Products_List">Products list</sys:String>
-    <sys:String x:Key="Deploy_Products_List_Type_To_Search">Type to filter the products list</sys:String>
+    <sys:String x:Key="Deploy_Products_List">Producten lijst</sys:String>
+    <sys:String x:Key="Deploy_Products_List_Type_To_Search">Typ om de productenlijst te filteren</sys:String>
     <sys:String x:Key="Deploy_Products_List_ID">Product ID:</sys:String>
-    <sys:String x:Key="Deploy_Languages_List">Languages list</sys:String>
-    <sys:String x:Key="Deploy_Languages_List_Type_To_Search">Type to filter the languages list</sys:String>
+    <sys:String x:Key="Deploy_Languages_List">Talen lijst</sys:String>
+    <sys:String x:Key="Deploy_Languages_List_Type_To_Search">Typ om de talenlijst te filteren</sys:String>
     <sys:String x:Key="Deploy_Languages_As_Proofing_Tool">Gebruik alleen taalprogramma's.</sys:String>
     <sys:String x:Key="Deploy_Languages_List_ID">Taal ID:</sys:String>
     <sys:String x:Key="Deploy_Languages_List_Type">Language type:</sys:String>
@@ -179,153 +179,153 @@
     <sys:String x:Key="Deploy_Language_Tpye.PartialWithoutProofingTools">Gedeeltelijk zonder taalprogramma's</sys:String>
     <sys:String x:Key="Deploy_Language_Tpye.ProofingTools">Taalprogramma's</sys:String>
     
-    <sys:String x:Key="Deploy_Installation_Files">Installation files</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files.Description">Select, verify or delete Office installation files.</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_Select">Select</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_Select.Description">When selecting the installation files, select any of the CAB files.</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_Verify">Verify</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_Verify.Description">Verify the installation files for errors.</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_DeleteAll">Delete all</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files">Installatie bestanden</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files.Description">Selecteer, verifieer of verwijder Office installatiebestanden.</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_Select">Selecteer</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_Select.Description">Selecteer bij het selecteren van de installatiebestanden een van de CAB-bestanden.</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_Verify">Controleren</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_Verify.Description">Controleer de installatiebestanden op fouten.</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_DeleteAll">Verwijder alles</sys:String>
     <sys:String x:Key="Deploy_Installation_Files_Reset">Reset</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_Reset.Description">Do not use the current installation files to deploy Office.</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_UseAsSource">Use as source</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_UseAsSource.Description">The architecture and update channel will automatically match this installation.</sys:String>
-    <sys:String x:Key="Deploy_Installation_Files_Delete">Delete</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_Reset.Description">Gebruik niet de huidige installatiebestanden om Office te implementeren.</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_UseAsSource">Gebruik als bron</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_UseAsSource.Description">De architectuur en het updatekanaal komen automatisch overeen met deze installatie.</sys:String>
+    <sys:String x:Key="Deploy_Installation_Files_Delete">Verwijderen</sys:String>
 
-    <sys:String x:Key="Deploy_Advanced_Settings">Go to advanced settings</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Settings.Description">Go to advanced settings to set more options.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Settings_Button">_Advanced settings</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Settings">Ga naar geavanceerde instellingen</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Settings.Description">Ga naar geavanceerde instellingen om meer opties in te stellen.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Settings_Button">_Geavanceerde instellingen</sys:String>
     
     <!-- Deploy advanced page -->
     <sys:String x:Key="Deploy_Advanced">Geavanceerde instellingen</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Go_Back">Go back</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Go_Back.Description">Back to basic settings.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Go_Back">Ga terug</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Go_Back.Description">Terug naar basisinstellingen.</sys:String>
 
-    <sys:String x:Key="Deploy_Advanced_General_Settings">General settings</sys:String>
+    <sys:String x:Key="Deploy_Advanced_General_Settings">Algemene instellingen</sys:String>
     <sys:String x:Key="Deploy_Advanced_Company_Name">Geef uw organisatienaam op, om de bedrijfseigenschappen in Office-documenten in te stellen.</sys:String>
     <sys:String x:Key="Deploy_Advanced_Description">Geef een beschrijving van de configuratie voor documentatie.</sys:String>
     
-    <sys:String x:Key="Deploy_Advanced_Install_Settings">Install settings</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Fallback_Language">Fallback language</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Install_Settings">Instellingen installeren</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Fallback_Language">Fallback-taal</sys:String>
     <sys:String x:Key="Deploy_Advanced_Fallback_Language.Description">Als de taal is ingesteld om overeen te komen met de systeemtaal, kunt u een reservetaal specificeren om te installeren wanneer een overeenkomende taal niet wordt ondersteund door Office of niet kan worden gevonden in de lokale bron.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Version">Office version</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Version">Office versie</sys:String>
     <sys:String x:Key="Deploy_Advanced_Version.Description">Standaard naar de laatst beschikbare versie indien niet gespecificeerd.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Download_Path">Download path</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Download_Path.Description">Defines where the installation files are downloaded from, you must specify Office version when using download path.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Source_Path">Source path</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Download_Path">Downloadpad</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Download_Path.Description">Definieert waar de installatiebestanden vandaan worden gedownload, u moet de Office-versie opgeven wanneer u het downloadpad gebruikt.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Source_Path">Bronpad</sys:String>
     <sys:String x:Key="Deploy_Advanced_Source_Path.Description">Als het bronpad leeg is, wordt de Office CDN standaard als bron gebruikt. Bepaalt in de downloadmodus waar de bestanden moeten worden opgeslagen.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_No_Display">Silent install</sys:String>
-    <sys:String x:Key="Deploy_Advanced_No_Display.Description">No progress bars, error messages, or other user interface are displayed during Office installation.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Allow_CDN_Fallback">Allow fallback to CDN</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Allow_CDN_Fallback.Description">Allow Office installer to fallback to Office CDN to download the missing languages.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Force_Close_Apps">Force close all running Office applications</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar">Pin to taskbar</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar.Description">Pin Office applications icons to taskbar on Windows 7, 8 and 8.1.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_No_Display">Stille installatie</sys:String>
+    <sys:String x:Key="Deploy_Advanced_No_Display.Description">Er worden geen voortgangsbalken, foutberichten of andere gebruikersinterface weergegeven tijdens de installatie van Office.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Allow_CDN_Fallback">Terugval naar CDN toestaan</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Allow_CDN_Fallback.Description">Laat het Office installatieprogramma terugvallen op Office CDN om de ontbrekende talen te downloaden.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Force_Close_Apps">Sluit alle actieve Office-toepassingen geforceerd af</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar">Vastzetten op taakbalk</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar.Description">Pin Office-toepassingspictogrammen op de taakbalk op Windows 7, 8 en 8.1.</sys:String>
 
     <sys:String x:Key="Deploy_Advanced_Update_Settings">Update instellingen</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Enable_Mgnt_COM">Manage updates using MECM.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Enable_Mgnt_COM.Description">When managing updates using Microsoft Endpoint Configuration Manager, updates are managed by administrator.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Enable_Update">Enable Office automatic update</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Update_Path">Update source</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Enable_Mgnt_COM">Beheer updates met behulp van MECM.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Enable_Mgnt_COM.Description">Bij het beheren van updates met Microsoft Endpoint Configuration Manager, worden updates beheerd door de beheerder.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Enable_Update">Automatische Office update inschakelen</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Update_Path">Bron bijwerken</sys:String>
     <sys:String x:Key="Deploy_Advanced_Update_Path.Description">Als het pad leeg is, wordt standaard het Office CDN als bron gebruikt.</sys:String>
     
     <sys:String x:Key="Deploy_Advanced_Upgrade_Settings">Upgrade opties</sys:String>
     <sys:String x:Key="Deploy_Advanced_Migrate_Arch">Migreer architectuur.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Migrate_Arch.Description">Change the existing Office installation to the currently specified architecture. For example, from 32 bit to 64 bit.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Migrate_Arch.Description">Wijzig de bestaande Office-installatie naar de momenteel opgegeven architectuur. Bijvoorbeeld van 32 bit naar 64 bit.</sys:String>
     <sys:String x:Key="Deploy_Advanced_Remove_MSI">Verwijder bestaande MSI-versies van Office.</sys:String>
     <sys:String x:Key="Deploy_Advanced_Match_Previous_MSI">Installeer dezelfde taal als bij de vorige MSI-versie.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Ignore_Product">Ignore this products</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Ignore_Product">Negeer deze producten</sys:String>
     
     <sys:String x:Key="Deploy_Advanced_Activate_Settings">Activerings instellingen</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Accept_EULA">Automatically accept the EULA</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Accept_EULA.Description">When enabled, the "Microsoft Software License Terms" dialog box will not be displayed.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Accept_EULA">Accepteer automatisch de EULA</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Accept_EULA.Description">Indien ingeschakeld, wordt het dialoogvenster "Microsoft softwarelicentievoorwaarden" niet weergegeven.</sys:String>
     <sys:String x:Key="Deploy_Advanced_MAK">MAK instelling</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Auto_Activate">After setting the MAK, we will try to activate the product automatically.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Product_Activation">Product activation</sys:String>
-    <sys:String x:Key="Deploy_Advanced_UserBased">User based</sys:String>
-    <sys:String x:Key="Deploy_Advanced_DeviceBased">Device based</sys:String>
-    <sys:String x:Key="Deploy_Advanced_SCL">Shared computer</sys:String>
-    <sys:String x:Key="Deploy_Advanced_SCL_Cache_Override">Overwrite licensing token location</sys:String>
-    <sys:String x:Key="Deploy_Advanced_SCL_Cache_Override.ToolTip">Specify a folder location for the licensing token.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Auto_Activate">Na het instellen van de MAK zullen we proberen het product automatisch te activeren.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Product_Activation">Productactivering</sys:String>
+    <sys:String x:Key="Deploy_Advanced_UserBased">Gebruikersgebaseerd</sys:String>
+    <sys:String x:Key="Deploy_Advanced_DeviceBased">Apparaat gebaseerd</sys:String>
+    <sys:String x:Key="Deploy_Advanced_SCL">Gedeelde computer</sys:String>
+    <sys:String x:Key="Deploy_Advanced_SCL_Cache_Override">Licentietokenlocatie overschrijven</sys:String>
+    <sys:String x:Key="Deploy_Advanced_SCL_Cache_Override.ToolTip">Geef een maplocatie op voor het licentietoken.</sys:String>
 
     <sys:String x:Key="Deploy_Advanced_Preferences">Applicatievoorkeuren</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Apply_Preferences.Description">Apply preferences to Office applications immediately.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Reset_Preferences">Reset all preferences</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Apply_Preferences.Description">Pas voorkeuren onmiddellijk toe op Office toepassingen.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Reset_Preferences">Reset alle voorkeuren</sys:String>
     <sys:String x:Key="Deploy_Advanced_Reset_Preferences_Button">Reset</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Load_Preferences_Button">Load application preferences</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Preferences_Type_To_Search.Name">Search application preferences</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Load_Preferences_Button">Laad applicatievoorkeuren</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Preferences_Type_To_Search.Name">Zoek toepassingsvoorkeuren</sys:String>
     <sys:String x:Key="Deploy_Advanced_Preferences_Type_To_Search.HelpText">Typ om naar toepassingsvoorkeuren te zoeken</sys:String>
     <sys:String x:Key="Deploy_Advanced_Preferences_Settings">Instellingen</sys:String>
     <sys:String x:Key="Deploy_Advanced_Preferences_Enable">Inschakelen</sys:String>
     <sys:String x:Key="Deploy_Advanced_Set_Preferences_Button">Toepassen</sys:String>
 
     <!-- Activate page -->
-    <sys:String x:Key="Activate_Licenses_Management">Licenses management</sys:String>
-    <sys:String x:Key="Activate_Licenses_Management.Description">Install, uninstall or activate Office licenses.</sys:String>
+    <sys:String x:Key="Activate_Licenses_Management">Beheer van licenties</sys:String>
+    <sys:String x:Key="Activate_Licenses_Management.Description">Office licenties installeren, verwijderen of activeren.</sys:String>
     <sys:String x:Key="Activate_Button">_Activeren</sys:String>
-    <sys:String x:Key="Activate_Display_Internet_Act_Events">Display Internet activation failure events</sys:String>
-    <sys:String x:Key="Activate_Display_KMS_Events">Display KMS activation events</sys:String>
+    <sys:String x:Key="Activate_Display_Internet_Act_Events">Gebeurtenissen over mislukte internetactivering weergeven</sys:String>
+    <sys:String x:Key="Activate_Display_KMS_Events">KMS activeringsgebeurtenissen weergeven</sys:String>
     <sys:String x:Key="Activate_Clear_Activation">Activering wissen</sys:String>
     <sys:String x:Key="Activate_Install_Licenses">Installeer licenties</sys:String>
-    <sys:String x:Key="Activate_Install_Licenses.Description">Get licenses from installed Office and install them.</sys:String>
+    <sys:String x:Key="Activate_Install_Licenses.Description">Haal licenties op van geïnstalleerd Office en installeer ze.</sys:String>
     <sys:String x:Key="Activate_Install_Licenses_Button">Installeer</sys:String>
     <sys:String x:Key="Activate_Install_Other_Licenses">Installeer andere licenties</sys:String>
-    <sys:String x:Key="Activate_Install_Other_Licenses.Description">Install other licenses from local disk.</sys:String>
+    <sys:String x:Key="Activate_Install_Other_Licenses.Description">Installeer andere licenties vanaf de lokale schijf.</sys:String>
     <sys:String x:Key="Activate_Install_Other_Licenses_Button">Installeer</sys:String>
-    <sys:String x:Key="Activate_Uninstall_All_Licenses">Uninstall all licenses</sys:String>
-    <sys:String x:Key="Activate_Uninstall_All_Licenses.Description">Uninstall all installed licenses. You will need to install license after this operation.</sys:String>
-    <sys:String x:Key="Activate_Uninstall_All_Licenses_Button">Uninstall</sys:String>
+    <sys:String x:Key="Activate_Uninstall_All_Licenses">Verwijder alle licenties</sys:String>
+    <sys:String x:Key="Activate_Uninstall_All_Licenses.Description">Verwijder alle geïnstalleerde licenties. Na deze bewerking moet u de licentie installeren.</sys:String>
+    <sys:String x:Key="Activate_Uninstall_All_Licenses_Button">Verwijderen</sys:String>
 
-    <sys:String x:Key="Activate_Keys_Management">Keys management</sys:String>
-    <sys:String x:Key="Activate_Keys_Management.Description">Install, uninstall keys or activate Office offline.</sys:String>
-    <sys:String x:Key="Activate_Product_Key">Product key</sys:String>
-    <sys:String x:Key="Activate_Product_Key.Description">Install Office product key, product key format: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX.</sys:String>
-    <sys:String x:Key="Activate_Install_Product_Key">_Install key</sys:String>
-    <sys:String x:Key="Activate_Uninstall_Unactivated_Key">_Uninstall all unactivated keys</sys:String>
-    <sys:String x:Key="Activate_Uninstall_All_Product_Keys">Uninstall _all keys</sys:String>
-    <sys:String x:Key="Activate_Install_CID">Install confirmation ID</sys:String>
-    <sys:String x:Key="Activate_Install_CID.Description">Install confirmation ID to activate Office offline.</sys:String>
-    <sys:String x:Key="Activate_Input_CID">Please enter the confirmation ID</sys:String>
+    <sys:String x:Key="Activate_Keys_Management">Sleutelbeheer</sys:String>
+    <sys:String x:Key="Activate_Keys_Management.Description">Sleutels installeren, verwijderen of Office offline activeren.</sys:String>
+    <sys:String x:Key="Activate_Product_Key">Product sleutel</sys:String>
+    <sys:String x:Key="Activate_Product_Key.Description">Installeer Office productsleutel, productsleutelformaat: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX.</sys:String>
+    <sys:String x:Key="Activate_Install_Product_Key">_Installeer sleutel</sys:String>
+    <sys:String x:Key="Activate_Uninstall_Unactivated_Key">_Verwijder alle niet geactiveerde sleutels</sys:String>
+    <sys:String x:Key="Activate_Uninstall_All_Product_Keys">Verwijder _alle sleutels</sys:String>
+    <sys:String x:Key="Activate_Install_CID">Bevestigings ID installeren</sys:String>
+    <sys:String x:Key="Activate_Install_CID.Description">Installeer een bevestigings ID om Office offline te activeren.</sys:String>
+    <sys:String x:Key="Activate_Input_CID">Voer de bevestigings ID in</sys:String>
 
     <sys:String x:Key="Activate_KMS_Management">KMS beheer</sys:String>
-    <sys:String x:Key="Activate_KMS_Management.Description">Set or reset the KMS host or port.</sys:String>
-    <sys:String x:Key="Activate_KMS_Apply">_Set host</sys:String>
+    <sys:String x:Key="Activate_KMS_Management.Description">Stel de KMS host of -poort in of reset deze.</sys:String>
+    <sys:String x:Key="Activate_KMS_Apply">_Stel host in</sys:String>
     <sys:String x:Key="Activate_KMS_Host">KMS host</sys:String>
-    <sys:String x:Key="Activate_KMS_Host.Description">KMS host name. For example, kms.example.com, kms.example.com:1688 or IP address.</sys:String>
+    <sys:String x:Key="Activate_KMS_Host.Description">KMS-hostnaam. Bijvoorbeeld kms.example.com, kms.example.com:1688 of IP-adres.</sys:String>
     <sys:String x:Key="Activate_KMS_Host_Cache.Enable">Schakel host caching in</sys:String>
     <sys:String x:Key="Activate_KMS_Host_Cache.Disable">Schakel host caching uit</sys:String>
     <sys:String x:Key="Activate_KMS_Reset">Reset KMS</sys:String>
-    <sys:String x:Key="Activate_KMS_Reset.Description">Remove KMS host name and set KMS port to default.</sys:String>
+    <sys:String x:Key="Activate_KMS_Reset.Description">Verwijder de KMS-hostnaam en stel de KMS-poort in op standaard.</sys:String>
 
     <!-- Licenses list -->
     <sys:String x:Key="Activate_Licenses">Office licenses</sys:String>
-    <sys:String x:Key="Activate_License">Licenses list</sys:String>
-    <sys:String x:Key="Activate_License.Description">Manage installed licenses.</sys:String>
-    <sys:String x:Key="Activate_License_Refresh">_Refresh</sys:String>
-    <sys:String x:Key="Activate_License_Expand">_Expand all</sys:String>
-    <sys:String x:Key="Activate_License_Collapse">_Collapse all</sys:String>
-    <sys:String x:Key="Activate_License_Clear">C_lear list</sys:String>
+    <sys:String x:Key="Activate_License">Licenties lijst</sys:String>
+    <sys:String x:Key="Activate_License.Description">Beheer geïnstalleerde licenties.</sys:String>
+    <sys:String x:Key="Activate_License_Refresh">_Vernieuwen</sys:String>
+    <sys:String x:Key="Activate_License_Expand">_Alles uitvouwen</sys:String>
+    <sys:String x:Key="Activate_License_Collapse">_Alles inklappen</sys:String>
+    <sys:String x:Key="Activate_License_Clear">C_lear lijst</sys:String>
     <sys:String x:Key="Activate_License_Status.Unactivated">Unactivated</sys:String>
-    <sys:String x:Key="Activate_License_Status.Activated">Activated</sys:String>
+    <sys:String x:Key="Activate_License_Status.Activated">Geactiveerd</sys:String>
     <!-- vNext Licnese -->
-    <sys:String x:Key="Activate_License_vNext.Type">License type:</sys:String>
-    <sys:String x:Key="Activate_License_vNext.Type.Subscription">subscription</sys:String>
-    <sys:String x:Key="Activate_License_vNext.ExpireDate">License expiry date:</sys:String>
-    <sys:String x:Key="Activate_License_vNext.MaxDevice">Max devices allowed:</sys:String>
-    <sys:String x:Key="Activate_License_vNext.Status">Status:</sys:String>
-    <sys:String x:Key="Activate_License_vNext.Status.Provisioned">provisioned</sys:String>
-    <sys:String x:Key="Activate_License_vNext.Code">Reason code:</sys:String>
-    <sys:String x:Key="Activate_License_vNext.Beneficiary.User">The license is assigned to the following user:</sys:String>
-    <sys:String x:Key="Activate_License_vNext.Beneficiary.Device">The license is assigned to the following device:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.TenantID">Tenant ID:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.DeviceID">Device ID:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.UserID">User ID:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.UserEmail">User Email:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.UserValidFrom">Authorization valid from:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.UserValidTo">Authorization valid to:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.ValidFrom">Valid from:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.ValidTo">Valid to:</sys:String>
-    <sys:String x:Key="Activate_License_vNext_Metadata.RenewalTime">Next renewal time:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Type">Licentie type:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Type.Subscription">abonnement</sys:String>
+    <sys:String x:Key="Activate_License_vNext.ExpireDate">Licentie vervaldatum:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.MaxDevice">Maximaal toegestane apparaten:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Status">Toestand:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Status.Provisioned">bevoorraad</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Code">Reden code:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Beneficiary.User">De licentie is toegewezen aan de volgende gebruiker:</sys:String>
+    <sys:String x:Key="Activate_License_vNext.Beneficiary.Device">De licentie is toegewezen aan het volgende apparaat:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.TenantID">Huurder-ID:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.DeviceID">Apparaat ID:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.UserID">gebruikersnaam:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.UserEmail">E-mailadres gebruiker:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.UserValidFrom">Machtiging geldig vanaf:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.UserValidTo">Machtiging geldig tot:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.ValidFrom">Geldig vanaf:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.ValidTo">Geldig tot:</sys:String>
+    <sys:String x:Key="Activate_License_vNext_Metadata.RenewalTime">Volgende verlengingstijd:</sys:String>
     <!-- Legacy License -->
     <sys:String x:Key="Activate_License_Lic.Description">Description:</sys:String>
     <sys:String x:Key="Activate_License_Lic.Key">Last 5 characters of key:</sys:String>
